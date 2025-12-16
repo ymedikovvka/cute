@@ -1,0 +1,70 @@
+/*Using common properties related to color, size, font, text alignment, and background.
+Working with a given element's box model by modifying their width/height, border, padding, and margin.
+Laying out elements on the page according to how they're displayed and positioned pretty and cute picnk stylish */
+
+
+h1 {
+    color: #ffccdddd;
+    font-size: 36px;
+    text-align: center;
+    background-color: #fff8fa;
+}
+header > p {
+    color: #fbd1ed;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: center;
+}
+#about {
+    padding: 20px;
+    border: 2px solid #ffccdddd;
+    background-color: #fbf2f5;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+main > img {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid #ffccdddd;
+}
+h2 {
+    font-size: 28px;
+    color: #ffccdddd;
+    text-align: left;
+    margin-bottom: 15px;
+}
+#about > p {
+    font-size: 18px;
+    color: #000000;
+}
+#projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project-card {
+    border: 2px solid #ffccdddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff0f5;
+}
+.project-card h3 {
+    font-size: 22px;
+    color: #ffccdddd;
+    margin-bottom: 10px;
+}
+.project-card p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;        
+}
+
+footer {
+    text-align: center;
+    color: #ffccdddd;
+    margin-top: 10px;
+}
+
